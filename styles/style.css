@@ -1,3 +1,7 @@
+html{
+    font-size: 62.5%;
+    font-size: 16px;/*1 rem =10px*/
+}
 body{
     background-color: aqua;
     font-family: 'Protest Riot', sans-serif;
@@ -6,12 +10,12 @@ body{
 
 .contenedor{
     background-color: black;
-    border-radius: 10px;
-    width: 1136px;
-    margin: 20px;
-    padding: 20px;
+    border-radius: 1rem;
+    width: 87rem;
+    margin: 2rem;
+    padding: 2rem;
     position: absolute;
-    top: 80px;
+    top: 8rem;
 }
 
 
@@ -19,50 +23,51 @@ body{
     position: fixed;
     background-color: black;
     text-align: center;
-    width: 1176px;
+    width: 91rem;
     top: 0;
-    left: 20px;
+    left: 2rem;
 }
 h1{
-    font-size: 40px;
+    font-size: 4rem;
     color: aliceblue;
 }
 
 .nav{
     background-color: beige;
-    font-size: 20px;
-    padding: 10px 40px;
+    font-size: 2rem;
+    padding: 1rem 4rem;
     display: block;
     text-align: center;
 
 }
 a{
     text-decoration: none;
-    padding: 10px;
+    padding: 1rem;
 }
 
 a:hover{
     background-color: burlywood;
-    border-radius: 10px;
-    padding: 5px;
+    border-radius: 1rem;
+    padding: 0.5rem;
 }
 h1{text-align: center;}
 
 .target{
     background-color: azure;
-    border-radius: 10px;
+    border-radius: 1rem;
     text-align: center;
-    width: 400px;
-    padding: 10px;
-    margin: 40px;
-    top: 30px;
+    width: 38rem;
+    padding: 1rem;
+    margin: 4rem 1rem 2rem 2rem;
+    top: 3rem;
     display: inline-block;
+    
 }
 
 .img{
-    border-radius: 15px;
-    height: 200px;
-    box-shadow: 0 0 10px 0 #000;
+    border-radius: 1rem;
+    height: 20rem;
+    box-shadow: 0 0 1rem 0 #000;
     
 }
 
@@ -70,10 +75,10 @@ h1{text-align: center;}
 .boton{
     color: beige;
     background-color: black;
-    border-radius: 10px;
-    padding: 5px;
-    height: 40px;
-    width: 80px;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    height: 4rem;
+    width: 8rem;
 }
 .boton:hover{
     background-color:antiquewhite;
@@ -87,7 +92,7 @@ h1{text-align: center;}
     color: aliceblue;
 
     text-align: center;
-    width: 1136px;
+    width: 87rem;
     background-color: aliceblue;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
