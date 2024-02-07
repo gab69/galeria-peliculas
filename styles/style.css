@@ -7,7 +7,9 @@ body{
     font-family: 'Protest Riot', sans-serif;
 
 }
-
+.menu{
+    display: none;
+}
 .contenedor{
     background-color: black;
     border-radius: 1rem;
@@ -36,7 +38,7 @@ h1{
     background-color: beige;
     font-size: 2rem;
     padding: 1rem 4rem;
-    display: block;
+   
     text-align: center;
 
 }
@@ -44,11 +46,50 @@ a{
     text-decoration: none;
     padding: 1rem;
 }
+@media (max-width: 40rem){
+.navegacion{
+   
+    width: 35rem;
+    background-color: #000;
+}
+.contenedor{
+    width: 31rem;
+    
+}
+
+.nav{
+    display: none;
+    border-radius: 0 0 1rem 1rem;
+}
+
+ .menu{
+    display: block;
+    background-color: antiquewhite;
+    color: blueviolet;
+ }
+
+
+a{
+    display: block;
+}
+    
+}
+
+
+
+
+
 
 a:hover{
     background-color: burlywood;
     border-radius: 1rem;
     padding: 0.5rem;
+}
+a:link{
+    color:black;
+}
+a:visited{
+    color:blueviolet;
 }
 h1{text-align: center;}
 
@@ -64,13 +105,106 @@ h1{text-align: center;}
     
 }
 
+
+
 .img{
     border-radius: 1rem;
     height: 20rem;
     box-shadow: 0 0 1rem 0 #000;
-    
+    object-fit: cover;/*adapta la imagen al contenedor*/
 }
 
+
+.img1:active{
+    height: 25rem;
+    position: absolute;
+    top: 5rem;
+    left: 2rem;
+    transition: all 1s;
+
+}
+.img2:active{
+    height: 25rem;
+    position: absolute;
+    top: 5rem;
+    right: 2rem;
+    transition: all 1s;
+}
+.img3:active{
+    height: 25rem;
+    position: absolute;
+    top: 40rem;
+    left: 8rem;
+    transition: all 1s;
+}
+.img4:active{
+    height: 25rem;
+    position: absolute;
+    top: 50rem;
+    right: 2rem;
+    transition: all 1s;
+}
+.img5:active{
+    height: 25rem;
+    position: absolute;
+    bottom: 20rem;
+    left: 3rem;
+    transition: all 1s;
+}
+.img6:active{
+    height: 25rem;
+    position: absolute;
+    bottom: 20rem;
+    right: 15rem;
+    transition: all 1s;
+   
+}
+
+@media (max-width:40rem ){
+    .target{
+        width: 25rem;
+        display: block;
+    }
+    .img{
+        height: 10rem;
+    }
+
+
+    .img1:active{
+        height: 20rem;
+        top: 0;
+        left: 0rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 .boton{
     color: beige;
@@ -96,3 +230,4 @@ h1{text-align: center;}
     background-color: aliceblue;
     margin-top: 2rem;
 }
+
